@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean id="userDao" class="com.zyc.dao.impl.UserDaoImpl" scope="singleton" ></bean>-->
+    <!--<bean id="userDao" class="com.zyc.factory.StaticFactory" factory-method="getUserDao"></bean>-->
+    <!--<bean id="factory" class="com.zyc.factory.DynamicFactory"></bean>-->
+    <!--<bean id="userDao" factory-bean="factory" factory-method="getUserDao"></bean>-->
+
+
+    <!--    <bean id="userDao" class="com.zyc.dao.impl.UserDaoImpl" scope="singleton"></bean>-->
+    <!--    <bean id="userService" class="com.zyc.service.impl.UserServiceImpl">-->
+    <!--        <property name="userDao" ref="userDao"></property>-->
+    <!--    </bean>-->
+    <bean id="userDao" class="com.zyc.dao.impl.UserDaoImpl" scope="singleton">
+        <property name="userName" value="张三"></property>
+        <property name="age" value="18"></property>
+        <property name="stringList">
+            <list>
+                <!--                    普通数据类型用value-->
+                <value>1</value>
+                <value>2</value>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="用户1" value-ref="user1"></entry>
+                <entry key="用户2" value-ref="user2"></entry>
+<!--                <entry key="地址" value="454"></entry>-->
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="p1">111</prop>
+                <prop key="p2">222</prop>
+            </props>
+        </property>
+    </bean>
+    <bean id="userService" class="com.zyc.service.impl.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao"></constructor-arg>
+    </bean>
+    <bean id="user1" class="com.zyc.dao.User">
+        <property name="name" value="北极熊"></property>
+        <property name="address" value="北极"></property>
+    </bean>
+    <bean id="user2" class="com.zyc.dao.User">
+        <property name="name" value="企鹅"></property>
+        <property name="address" value="南极"></property>
+    </bean>
+</beans>
