@@ -1,8 +1,11 @@
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
+import com.zyc.config.DataSourceConfiguration;
+import com.zyc.config.SpringConfiguration;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.sql.Connection;
@@ -71,5 +74,17 @@ public class DateSourceTest {
         DruidPooledConnection connection = dataSource1.getConnection();
         System.out.println(connection);
         connection.close();
+    }
+
+    @Test
+    public void test06() throws SQLException {
+        AnnotationConfigApplicationContext applicationContext=new AnnotationConfigApplicationContext(SpringConfiguration.class);
+
+//        DruidDataSource dataSource = (DruidDataSource) applicationContext.getBean("dataSource");
+        DruidDataSource dataSource = applicationContext.getBean(DruidDataSource.class);
+        DruidPooledConnection connection = dataSource.getConnection();
+        System.out.println(connection);
+        connection.close();
+        applicationContext.close();
     }
 }
