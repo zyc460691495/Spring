@@ -15,7 +15,7 @@
     <bytecodeTargetLevel target="14">
       <module name="spring_aop" target="1.5" />
       <module name="spring_ioc" target="1.5" />
-      <module name="spring_ioc_anno" target="1.5" />
+      <module name="spring_ioc_anno" target="14" />
       <module name="spring_jdbc" target="14" />
     </bytecodeTargetLevel>
   </component>
