@@ -5,12 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zyc</groupId>
-    <artifactId>spring_ioc_anno</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>spring_tx_anno</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>untitled</module>
-    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -49,6 +46,25 @@
             <artifactId>spring-test</artifactId>
             <version>5.3.1</version>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>5.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+
+    </dependencies>
+    
 </project>

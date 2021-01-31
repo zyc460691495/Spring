@@ -47,4 +47,7 @@
         <property name="name" value="企鹅"></property>
         <property name="address" value="南极"></property>
     </bean>
+
+    <import resource="applicationContext-user.xml"></import>
+    <import resource="applicationContext-product.xml"></import>
 </beans>

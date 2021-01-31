@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring_mvc/src/main/java/com/zyc/dao/impl/UserDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring_mvc/src/main/java/com/zyc/listener/ContextLoaderListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring_mvc/src/main/java/com/zyc/web/UserServlet.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
