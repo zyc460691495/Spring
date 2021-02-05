@@ -4,10 +4,10 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-<!--    全局初始化参数-->
+    <!--    全局初始化参数-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-<!--        <param-value>applicationContext.xml</param-value>-->
+        <!--        <param-value>applicationContext.xml</param-value>-->
         <param-value>classpath:applicationContext.xml</param-value>
     </context-param>
 
@@ -19,12 +19,40 @@
         <servlet-name>UserServlet</servlet-name>
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
-    
-<!--    配置监听器-->
+
+    <!--    配置监听器-->
     <listener>
-<!--        <listener-class>com.zyc.listener.ContextLoaderListener</listener-class>-->
+        <!--        <listener-class>com.zyc.listener.ContextLoaderListener</listener-class>-->
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+
+    <!--    配置mvc前端控制器-->
+    <servlet>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <!--        用来定义servlet的名称，该名称在整个应用中必须是惟一的-->
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--        用来指定servlet的完全限定的名称-->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring-mvc.xml</param-value>
+        </init-param>
+
+        <load-on-startup>1</load-on-startup>
+        <!--        标记容器是否在启动的时候就加载这个servlet(实例化并调用其init()方法)。
+        它的值必须是一个整数，表示servlet应该被载入的顺序当值为0或者大于0时，
+        表示容器在应用启动时就加载并初始化这个servlet；当值小于0或者没有指定时，
+        则表示容器在该servlet被选择时才会去加载。
+        正数的值越小，该servlet的优先级越高，应用启动时就越先加载。
+        当值相同时，容器就会自己选择顺序来加载。-->
+    </servlet>
+    <!--    映射关系配置-->
+    <servlet-mapping>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <!--        Servlet的名字，唯一性和一致性，与<servlet>元素中声明的名字一致-->
+        <url-pattern>/</url-pattern>
+        <!--        指定相对于Servlet的URL的路径。该路径相对于web应用程序上下文的根路径。
+        <servlet-mapping>将URL模式映射到某个Servlet，即该Servlet处理的URL。-->
+    </servlet-mapping>
 
 
 </web-app>
