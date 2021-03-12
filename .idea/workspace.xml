@@ -28,15 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a34f6176-8650-434a-9b73-5f566c303815" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/java/com/zyc/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/webapp/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/webapp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc/spring_mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/spring_mvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_ioc_anno/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/spring_mvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_ioc_anno/untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_jdbc/spring_jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_jdbc/spring_jdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_jdbc/src/test/java/com/zyc/test/JdbcTemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_jdbc/src/test/java/com/zyc/test/JdbcTemplateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +91,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="14" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/spring_mvc/src/main/java/com/zyc" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_mvc/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_ioc/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -101,7 +102,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48965517" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -110,27 +111,14 @@
       <recent name="com.zyc.cglib" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring\spring_ioc\src\main\resources" />
       <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring\spring_mvc\src\main\java\com" />
       <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring\spring_tx_anno\src\main\resources" />
       <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring\spring_tx_anno\src\main\java\com" />
       <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring\spring_tx_anno\src\main\java" />
-      <recent name="D:\IDEA\IntelliJ IDEA 2020.2.3\WorkSpace\Spring、" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration name="AccountController (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyc.controller.AccountController" />
-      <module name="spring_tx_anno" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zyc.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UserDaoTest">
     <configuration name="AccountController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zyc.controller.AccountController" />
       <module name="spring_tx" />
@@ -144,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zyc.web.UserServlet" />
-      <module name="spring_mvc" />
+    <configuration name="UserDaoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zyc.test.UserDaoTest" />
+      <module name="spring_ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zyc.web.*" />
+          <option name="PATTERN" value="com.zyc.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,23 +145,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTemplateCRUDTest.queryMoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_jdbc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zyc.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zyc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zyc.test.JdbcTemplateCRUDTest" />
-      <option name="METHOD_NAME" value="queryMoneyTest" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnoTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTemplateCRUDTest.queryNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AopTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AopTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_jdbc" />
       <extension name="coverage">
         <pattern>
@@ -182,8 +185,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zyc.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zyc.test.JdbcTemplateCRUDTest" />
-      <option name="METHOD_NAME" value="queryNumTest" />
+      <option name="MAIN_CLASS_NAME" value="com.zyc.test.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -331,20 +334,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AccountController" />
-      <item itemvalue="Application.AccountController (1)" />
-      <item itemvalue="Application.UserServlet" />
-      <item itemvalue="JUnit.JdbcTemplateCRUDTest.queryMoneyTest" />
-      <item itemvalue="JUnit.JdbcTemplateCRUDTest.queryNumTest" />
+      <item itemvalue="JUnit.JdbcTemplateTest.test02" />
+      <item itemvalue="JUnit.AopTest.test1" />
+      <item itemvalue="JUnit.AnnoTest.test1" />
       <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Application.AccountController" />
+      <item itemvalue="Application.UserDaoTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServlet" />
-        <item itemvalue="Application.AccountController (1)" />
+        <item itemvalue="Application.UserDaoTest" />
         <item itemvalue="Application.AccountController" />
-        <item itemvalue="JUnit.JdbcTemplateCRUDTest.queryNumTest" />
-        <item itemvalue="JUnit.JdbcTemplateCRUDTest.queryMoneyTest" />
+        <item itemvalue="JUnit.AopTest.test1" />
+        <item itemvalue="JUnit.AnnoTest.test1" />
+        <item itemvalue="JUnit.JdbcTemplateTest.test02" />
       </list>
     </recent_temporary>
   </component>
@@ -378,6 +381,23 @@
       <workItem from="1612435431794" duration="5911000" />
       <workItem from="1612499561853" duration="8000" />
       <workItem from="1612500834248" duration="17000" />
+      <workItem from="1612597301357" duration="400000" />
+      <workItem from="1613304727635" duration="58000" />
+      <workItem from="1613356837624" duration="25000" />
+      <workItem from="1613356922647" duration="5173000" />
+      <workItem from="1613379300731" duration="65000" />
+      <workItem from="1613390160774" duration="706000" />
+      <workItem from="1614739837410" duration="126000" />
+      <workItem from="1614752265637" duration="622000" />
+      <workItem from="1614753238300" duration="1152000" />
+      <workItem from="1614756541495" duration="28000" />
+      <workItem from="1615125970725" duration="2982000" />
+      <workItem from="1615129643512" duration="57000" />
+      <workItem from="1615129995306" duration="2292000" />
+      <workItem from="1615172081916" duration="5900000" />
+      <workItem from="1615443143938" duration="6870000" />
+      <workItem from="1615471896204" duration="20000" />
+      <workItem from="1615510116721" duration="4271000" />
     </task>
     <servers />
   </component>
@@ -408,10 +428,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="502" y="235" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1611848938808" />
-    <state x="249" y="0" key="#Project_Structure" timestamp="1611886938322">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1615129393900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1611886938322" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1615129393900" />
     <state x="542" y="301" key="#Tomcat_Server" timestamp="1611892130631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -424,10 +444,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="739" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1611888868364" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1611886407947">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1615513716593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1611886407947" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1615513716593" />
     <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1612419448783">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -440,18 +460,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="490" y="74" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1611892135275" />
-    <state x="464" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1612028904870">
+    <state x="464" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1615131762667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="464" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1612028904870" />
+    <state x="464" y="318" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1536.824@0.0.1536.824" timestamp="1615131762667" />
     <state x="557" y="318" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1612500846928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="557" y="318" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1612500846928" />
-    <state x="349" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611454512528">
+    <state x="349" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615173837988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="349" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1611454512528" />
+    <state x="349" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1615173837988" />
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611711338774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -464,26 +484,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="511" y="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1612028063955" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612436512735">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1615130721234">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612436512735" />
-    <state width="1435" height="293" key="GridCell.Tab.0.bottom" timestamp="1612495563361">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615130721234" />
+    <state width="1493" height="324" key="GridCell.Tab.0.bottom" timestamp="1615513854778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1435" height="293" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612495563361" />
-    <state width="1435" height="293" key="GridCell.Tab.0.center" timestamp="1612495563361">
+    <state width="1493" height="324" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1615513854778" />
+    <state width="1493" height="324" key="GridCell.Tab.0.center" timestamp="1615513854778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1435" height="293" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612495563361" />
-    <state width="1435" height="293" key="GridCell.Tab.0.left" timestamp="1612495563361">
+    <state width="1493" height="324" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1615513854778" />
+    <state width="1493" height="324" key="GridCell.Tab.0.left" timestamp="1615513854778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1435" height="293" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612495563361" />
-    <state width="1435" height="293" key="GridCell.Tab.0.right" timestamp="1612495563361">
+    <state width="1493" height="324" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1615513854778" />
+    <state width="1493" height="324" key="GridCell.Tab.0.right" timestamp="1615513854778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1435" height="293" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612495563361" />
+    <state width="1493" height="324" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1615513854778" />
     <state width="1435" height="293" key="GridCell.Tab.1.bottom" timestamp="1612495563362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -516,14 +536,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1435" height="293" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1612495563362" />
-    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1611847771494">
+    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1615130723116">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1611847771494" />
-    <state x="207" y="0" width="1233" height="824" key="SettingsEditor" timestamp="1612500847755">
+    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1615130723116" />
+    <state x="207" y="0" width="1233" height="824" key="SettingsEditor" timestamp="1615510223442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="207" y="0" width="1233" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1612500847755" />
+    <state x="207" y="0" width="1233" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615510223442" />
     <state x="565" y="189" key="chooseDestDirectoryDialog" timestamp="1612060666441">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -536,10 +556,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="151" y="184" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1611222928042" />
-    <state x="294" y="109" key="new project wizard" timestamp="1612495510356">
+    <state x="294" y="109" key="new project wizard" timestamp="1615448039348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="294" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1612495510356" />
+    <state x="294" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1615448039348" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1612249908762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -548,9 +568,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1612421029048" />
-    <state x="340" y="95" key="spring file set editor" timestamp="1611887256802">
+    <state x="340" y="95" key="spring file set editor" timestamp="1615447257157">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="340" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1611887256802" />
+    <state x="340" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1615447257157" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--<bean id="userDao" class="com.zyc.dao.impl.UserDaoImpl" scope="singleton" ></bean>-->
     <!--<bean id="userDao" class="com.zyc.factory.StaticFactory" factory-method="getUserDao"></bean>-->
     <!--<bean id="factory" class="com.zyc.factory.DynamicFactory"></bean>-->
@@ -15,6 +15,12 @@
     <bean id="userDao" class="com.zyc.dao.impl.UserDaoImpl" scope="singleton">
         <property name="userName" value="张三"></property>
         <property name="age" value="18"></property>
+        <property name="array">
+            <array>
+                <value>123</value>
+                <value>456</value>
+            </array>
+        </property>
         <property name="stringList">
             <list>
                 <!--                    普通数据类型用value-->
@@ -34,6 +40,13 @@
                 <prop key="p1">111</prop>
                 <prop key="p2">222</prop>
             </props>
+        </property>
+        <property name="set">
+            <set>
+                <value>wuwu</value>
+                <value>haha</value>
+                <value>xixi</value>
+            </set>
         </property>
     </bean>
     <bean id="userService" class="com.zyc.service.impl.UserServiceImpl">

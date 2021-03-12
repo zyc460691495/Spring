@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <import resource="applicationContext-dao.xml"></import>
+
+
+
+    <bean id="userMapper" class="com.zyc.dao.UserMapperImpl">
+        <property name="sqlSession" ref="sqlSession"></property>
+    </bean>
+
+    <bean id="userMapper2" class="com.zyc.dao.UserMapperImpl2">
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+    </bean>
+</beans>
+
+

@@ -42,14 +42,14 @@
             <tx:method name="*"/>
         </tx:attributes>
     </tx:advice>
-
-<!--切点-->
+<!--    注入-->
     <bean id="accountService" class="com.zyc.service.impl.AccountServiceImpl">
         <property name="accountDao" ref="accountDao"></property>
     </bean>
 
 <!--    织入-->
     <aop:config>
+<!--    切点+增强-->
         <aop:advisor advice-ref="advice" pointcut="execution(* com.zyc.service.impl.*.*(..))"></aop:advisor>
     </aop:config>
 </beans>

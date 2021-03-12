@@ -15,13 +15,13 @@ public class ProxyTest {
 
         Increase increase=new Increase();
 
-        //åˆ›å»ºå¢å¼ºå™¨
+        //´´½¨ÔöÇ¿Æ÷
         Enhancer enhancer=new Enhancer();
 
-        //è®¾ç½®çˆ¶ç±»
+        //ÉèÖÃ¸¸Àà
         enhancer.setSuperclass(Target.class);
 
-        //è®¾ç½®å›è°ƒ
+        //ÉèÖÃ»Øµ÷
         enhancer.setCallback(new MethodInterceptor() {
             @Override
             public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
@@ -31,7 +31,7 @@ public class ProxyTest {
                 return null;
             }
         });
-        //åˆ›å»ºä»£ç†å¯¹è±¡
+        //´´½¨´úÀí¶ÔÏó
         Target target1 = (Target) enhancer.create();
         target1.save();
     }
